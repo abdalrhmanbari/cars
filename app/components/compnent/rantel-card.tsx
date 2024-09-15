@@ -7,7 +7,7 @@ import Image from "next/image";
 
 export default function RentalCard({ car }: { car: any }) {
   return (
-    <div className=" group flex flex-col p-6 justify-center items-start text-black-100 bg-primary-blue-100 hover:bg-white hover:shadow-md rounded-3xl">
+    <div key={car.id} className=" group flex flex-col p-6 justify-center items-start text-black-100 bg-primary-blue-100 hover:bg-white hover:shadow-md rounded-3xl">
       <div className="w-full flex justify-between items-start gap-2">
         <h2 className="text-[1.4rem] leading-[1.7rem] font-bold capitalize">
           {car.make} {car.model}

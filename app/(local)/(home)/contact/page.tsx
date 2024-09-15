@@ -11,7 +11,7 @@ export default function Contact() {
             </div>
             <div>
                 <CustomButton
-                id={"/contact-us"}
+                id={"/contact_us"}
                 title='Contact now'
                 textStyle=' bg-white text-primary-blue rounded-full py-[0.7rem]  text-center min-w-[9.4rem] font-bold text-base sm:text-lg'
                 />

@@ -8,9 +8,9 @@ export default function Footer() {
       <div className=" flex max-md:flex-col flex-wrap justify-between gap-5 sm:px-16 px-6 py-10 w-full ">
         <div className="flex flex-col justify-start items-start gap-6">
           <div className="">
-            <h1 className="font-bold text-xl flex items-center ">
-              <div className="max-w-[3.75rem]  ">
-              <Image className=" w-full h-full " src="/2.png" alt=".."  width={300} height={300} priority/>
+            <h1 className="font-bold text-xl flex items-center gap-[0.2rem] ">
+              <div className="max-w-[2rem]  ">
+              <Image className=" w-full h-full " src="/logo..png" alt=".."  width={200} height={200} priority/>
               </div>
               ArbeCar
             </h1>

@@ -31,7 +31,7 @@ export default async function Sales() {
           id={"/sales-more"}
             title={"show more"}
             textStyle={
-              " capitalize relative  py-3 px-6 bg-primary-blue rounded-full text-white mt-10 hover:bg-white hover:text-primary-blue duration-300 font-bold ease-linear  gap-x-1 text-sm leading-6 "
+              " capitalize relative  py-3 px-6 bg-primary-blue rounded-full text-white mt-10 hover:bg-white hover:text-primary-blue duration-300 ease-linear font-bold   gap-x-1 text-sm leading-6 "
             }
           />
         </div>
