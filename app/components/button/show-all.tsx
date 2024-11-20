@@ -28,7 +28,7 @@ export default async function ShowAll() {
         className="absolute left-1/2 z-10 mt-5 flex w-screen max-w-max -translate-x-1/2 px-4 transition data-[closed]:translate-y-1 data-[closed]:opacity-0 data-[enter]:duration-200 data-[leave]:duration-150 data-[enter]:ease-out data-[leave]:ease-in"
       >
         <div className="  flex-auto overflow-hidden rounded-3xl bg-white text-sm leading-6 shadow-lg ring-1 ring-gray-900/5">
-          <div className="p-4 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-y-6 gap-x-8">
+          <div className="p-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-y-6 gap-x-8">
             {Manufacturers.map((item) => (
               <button className="flex items-center py-[0.5rem] px-2 gap-4 rounded-full hover:border-primary-blue hover:text-primary-blue duration-300 w-[15.625rem] border">
                 <div className="w-[1.875rem]">

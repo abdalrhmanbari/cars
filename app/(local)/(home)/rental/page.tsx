@@ -14,7 +14,7 @@ export default async function Rental() {
         id="discover"
       >
         <h1 className=" md:text-4xl text-2xl font-extrabold">Car Catalogue</h1>
-        <p>Explore the cars you might like</p>
+        <p className="text-gray-500">Explore the cars you might like</p>
       </div>
       <div className=" my-[3.125rem]  w-full">
         <CustomFilters />
